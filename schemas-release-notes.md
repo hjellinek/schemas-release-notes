@@ -2,7 +2,7 @@
 
 ### Pervasive changes
 
-Renamed all protocols and records to remove the "GA" prefix from
+Renamed all protocols and records to remove the "`GA`" prefix from
 their names.  (Hence `GASearchVariantSetsRequest` is now
 `SearchVariantSetsRequest`, etc.)  The exception is `GAException`,
 which is unchanged.
@@ -10,7 +10,7 @@ which is unchanged.
 There is no longer one unitary namespace.  Objects now reside in
 "`org.ga4gh.models`", methods in "`org.ga4gh.methods`".
 
-Updated the version number to `0.6.0-SNAPHOT`.
+Updated the version number to `0.6.0-SNAPSHOT`.
 
 ### Added
 
